@@ -1,24 +1,14 @@
 import './App.css';
-import logo from './logo.svg';
+import LandingPage from './Components/Pages/LandingPage/LandingPage';
+import HeroNavigationBar from './Components/UI/Navigation/HeroNavigationBar/HeroNavigationBar';
 
+// Depending on the mode and on which tab is selected, will affect which page is being rendered here
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and mMHAHAH! to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <HeroNavigationBar />
+      <LandingPage />
+    </main>
   );
 }
 
