@@ -1,0 +1,1 @@
+export const hero = "/src/Resources/Images/Svg/nab_company.svg"
