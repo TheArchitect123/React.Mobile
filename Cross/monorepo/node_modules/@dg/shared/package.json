@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "@dg/shared",
+  "version": "1.0.0",
+  "scripts": {
+    "run-iOS": "npx react-native run-ios",
+    "run-droid": "npx react-native run-android",
+    "run-web": "yarn start"
+  },
+  "babel": {
+    "presets": ["@babel/preset-react", "@babel/preset-env"],
+    "plugins": ["@babel/plugin-transform-react-jsx"]
+  },
+  "keywords": [],
+  "author": "Dan Gerchcovich",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "react-native": "^0.65.1",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
